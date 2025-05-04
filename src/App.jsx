@@ -1,10 +1,11 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import SessionTimer from './components/SessionTimer';
+import './styles/App.css';
 
 function App() {
   return (
-    <div>
-      <Navbar />
+    <div className="App">
+      <SessionTimer />
     </div>
   );
 }
